@@ -1,0 +1,154 @@
+.navbar .nav-link,
+.navbar .dropdown-item {
+    color: white !important;
+}
+
+/* Ensure the dropdown text remains white when hovered or active */
+.navbar .nav-link:hover,
+.navbar .dropdown-item:hover,
+.navbar .nav-link.active,
+.navbar .dropdown-item.active {
+    color: white !important;
+}
+
+.navbar .dropdown-menu {
+    background-color: #165470 !important;
+}
+
+.navbar .dropdown-menu .dropdown-item {
+    background-color: #165470 !important;
+    color: white; /* Default text color */
+}
+
+.navbar .dropdown-menu .dropdown-item:hover {
+    color: #ffdb58 !important; /* Hover text color */
+}
+
+
+/* Custom class to change navbar background color when scrolled */
+.navbar-shrink {
+    background-color: #165470 !important;
+}
+
+/* Initial state of the navbar with a transparent background */
+#mainNav {
+    background-color: transparent;
+    transition: background-color 0.5s ease;
+}
+
+  @keyframes fadeInUp {
+    0% {
+        opacity: 0;
+        transform: translate(5%, 100%);
+    }
+    100% {
+        opacity: 1;
+        transform: translate(5%, 5%);
+    }
+  }
+
+  @keyframes fadeInDown {
+    100% {
+        opacity: 1;
+        transform: translate(1%, 5%);
+    }
+    0% {
+        opacity: 0;
+        transform: translate(5%, 50%);
+    }
+  }
+
+
+.carousel-caption img{
+    margin-top:-60rem;
+    animation: fadeInUp 0.5s ease-out forwards;
+  }
+
+
+  .carousel-caption  a{
+    margin-top:-30rem;
+    background-color: rgba(255, 255, 255, 0.39);
+    color: #ffffff;
+    border-style: solid;
+    border-width: 1px 1px 1px 1px;
+    border-color: #bfbfbf;
+    border-radius: 0px 0px 0px 0px;
+    padding: 15px 30px;
+
+  }
+
+  
+
+
+  .about-section{
+    background-color: #ffc107;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+
+  }
+
+  .project-section {
+    background-color: #165470 ;
+    color:white;
+    padding:2rem;
+
+  }
+
+  .gallery-section {
+    background-color: #FFDB57 ;
+    color:white;
+    padding:2rem;
+
+  }
+
+  .big-font{
+    color: #ffffff;
+    font-family: "Overpass", Sans-serif;
+    font-size: 80px;
+    font-weight: 900;
+    font-style: normal;
+    line-height: 48px;
+    animation: fadeInDown 0.5s  forwards;
+  }
+
+  .project-section a.btn-view ,   .stay-section  a.btn-view,  .gallery-section a.btn-view,  .explore-section a.btn-view{
+    font-family: "Overpass", Sans-serif;
+    fill: #ffffff;
+    color: #ffffff;
+    background-color: rgba(0, 0, 0, 0);
+    border: 1px white solid ;
+    border-width: 2px 2px 2px 2px ;
+    border-radius: 0px 0px 0px 0px ;
+    animation: fadeInDown 0.5s  forwards;
+  }
+
+  .stay-section {
+    padding: 10rem 0;
+    background: url("../img/bg-stay.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+  }
+
+  
+
+  .explore-section {
+    padding: 10rem 0;
+    background: url("../img/bg-explore.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+  }
+
+  .foot{
+    margin-top: 0;
+    margin-bottom: .9rem;
+  }
+  
+
+
+
